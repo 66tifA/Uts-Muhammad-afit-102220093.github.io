@@ -1,0 +1,96 @@
+
+   div ul li{
+    font-weight: bold;
+   }
+  .lingkaran {
+    display: inline-block;
+    border-radius: 50%;
+    width: 150px;
+    margin: auto;
+    height: 150px;
+    color: #fff;
+    background-color: #dc3545;
+  }
+  
+  .lingkaran i {
+    position: relative;
+    top: 30px;
+  }
+  
+  .crop-img {
+    object-fit: cover;
+  }
+  
+  .tim img {
+    width: 250px;
+    border: 10px solid #cccccc;
+  }
+  
+  a.social {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    border-radius: 50%;
+    background-color: #333;
+    line-height: 40px;
+  }
+  
+  .client img {
+    height: auto;
+    max-height: 50px;
+  }
+  
+  .kontak {
+    background: url("foto/glowing-molecular-structure-futuristic-galaxy-backdrop-generated-by-ai.jpg") no-repeat
+      center center;
+    background-size: cover;
+    padding-bottom: 20%;
+    padding-top: 20%;
+    color: #fff;
+  }
+  .top-button {
+    
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #dc3545;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+  .top-button:hover {
+    background-color:#a51e2c;
+  }
+
+  .top-button:active {
+    background-color: #dc3545;
+    box-shadow: 0 5px #8d1919;
+    transform: translateY(4px);
+    
+  }
+  #myvideo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .intro {
+    text-align: center;
+    font-family: 'Times New Roman';
+  }
+  #maps {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  

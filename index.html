@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <title>Starsky</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="assets/css/stylw_tugas.css" />
+    <!-- Start of Async Drift Code -->
+    <script>
+      "use strict";
+
+      !(function () {
+        var t = (window.driftt = window.drift = window.driftt || []);
+        if (!t.init) {
+          if (t.invoked)
+            return void (
+              window.console &&
+              console.error &&
+              console.error("Drift snippet included twice.")
+            );
+          (t.invoked = !0),
+            (t.methods = [
+              "identify",
+              "config",
+              "track",
+              "reset",
+              "debug",
+              "show",
+              "ping",
+              "page",
+              "hide",
+              "off",
+              "on",
+            ]),
+            (t.factory = function (e) {
+              return function () {
+                var n = Array.prototype.slice.call(arguments);
+                return n.unshift(e), t.push(n), t;
+              };
+            }),
+            t.methods.forEach(function (e) {
+              t[e] = t.factory(e);
+            }),
+            (t.load = function (t) {
+              var e = 3e5,
+                n = Math.ceil(new Date() / e) * e,
+                o = document.createElement("script");
+              (o.type = "text/javascript"),
+                (o.async = !0),
+                (o.crossorigin = "anonymous"),
+                (o.src =
+                  "https://js.driftt.com/include/" + n + "/" + t + ".js");
+              var i = document.getElementsByTagName("script")[0];
+              i.parentNode.insertBefore(o, i);
+            });
+        }
+      })();
+      drift.SNIPPET_VERSION = "0.3.1";
+      drift.load("tmid6v7y53uh");
+    </script>
+    <!-- End of Async Drift Code -->
+  </head>
+  <body id="top">
+    <!-- navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-warning shadow-lg- fixed-top"
+    >
+      <div class="container-fluid">
+        <div class="navbar-logo">
+          <img src="foto/1699452886537.png" alt="" width="90px" />
+        </div>
+        <a class="navbar-brand" href="#">StarSky</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-right" id="navbarText">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#Introduction">Introduction</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#layanan">Layanan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portofolio">Portofolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Maps">Maps</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tentang">Tentang</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#staff">Staff</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="form-kontak.html">Kontak Kami</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div
+      id="carouselExampleDark"
+      class="carousel carousel-light slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="assets/img/gambar1.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <a href="form-kontak.html"
+              ><button type="button" class="btn btn-danger btn-lg">
+                Register
+              </button></a
+            >
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="assets/img/gambar2.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <a href="form-kontak.html"
+              ><button type="button" class="btn btn-danger btn-lg">
+                Register
+              </button></a
+            >
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/gambar3.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <a href="form-kontak.html"
+              ><button type="button" class="btn btn-danger btn-lg">
+                Register
+              </button></a
+            >
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleDark"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleDark"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- Introduction -->
+    <div class="container-fluid Introduction pt-5 pb-5">
+      <div class="container text-center">
+        <h1 class="intro" id="Introduction">Introduction</h1>
+        <video id="myvideo" width="900" height="430" controls>
+          <source
+            src="assets/img/corporate video for IT company _ corporate video for Perfectial.mp4"
+            type="video/mp4"
+          />
+        </video>
+      </div>
+    </div>
+    <!-- layanan -->
+    <div class="container-fluid layanan pt-5 pb-5">
+      <div class="container text-center">
+        <h2 class="display-3" id="layanan">Layanan</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate,
+          doloribus.
+        </p>
+        <div class="row pt-4">
+          <div class="col-md-4">
+            <span class="lingkaran"><i class="fas fa-code fa-5x"></i></span>
+            <h3 class="mt-3">Programming</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat,
+              a!
+            </p>
+          </div>
+
+          <div class="col-md-4">
+            <span class="lingkaran"><i class="fas fa-palette fa-5x"></i></span>
+            <h3 class="mt-3">Design</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat,
+              a!
+            </p>
+          </div>
+
+          <div class="col-md-4">
+            <span class="lingkaran"
+              ><i class="fas fa-network-wired fa-5x"></i
+            ></span>
+            <h3 class="mt-3">Networking</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat,
+              a!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- portofolio -->
+    <div class="container-fluid pt-5 pb-5 bg-light">
+      <div class="container text-center">
+        <h2 class="display-3" id="portofolio">Portofolio</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti,
+          dolorum quasi? Neque consectetur odio placeat inventore perferendis
+          quibusdam omnis deleniti.
+        </p>
+        <body>
+          <div
+            id="carouselExampleControls"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card" style="width: 18rem">
+                      <img
+                        src="assets/img/representations-user-experience-interface-design.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card" style="width: 18rem">
+                      <img
+                        src="assets/img/smartphone-with-user-interface-concept.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card" style="width: 18rem">
+                      <img
+                        src="assets/img/top-view-internet-communication-network-with-laptop-smartphone.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card" style="width: 18rem">
+                      <img
+                        src="assets/img/technology-app-development-wireless-e-commerce.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card" style="width: 18rem">
+                      <img
+                        src="assets/img/pict2.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card" style="width: 18rem">
+                      <img
+                        src="assets/img/pict3.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card" style="width: 18rem">
+                      <img
+                        src="assets/img/pict5.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card" style="width: 18rem">
+                      <img
+                        src="assets/img/pict1.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card" style="width: 18rem">
+                      <img
+                        src="assets/img/pict4.jpg"
+                        class="card-img-top"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+          <!-- Optional JavaScript; choose one of the two! -->
+
+          <!-- Option 1: Bootstrap Bundle with Popper -->
+          <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"
+          ></script>
+
+          <!-- Option 2: Separate Popper and Bootstrap JS -->
+          <!--
+          <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+          -->
+        </body>
+      </div>
+    </div>
+    <!-- maps -->
+    <div class="container-fluid pt-5 pb-5">
+      <div class="container">
+        <h3 class="display-3 text-center" id="Maps">Maps</h3>
+        <iframe
+          id="maps"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63375.28613868699!2d109.63330362460972!3d-6.8959402343365195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e70242ca490fe13%3A0xc0c68a126b258cb6!2sPekalongan%2C%20Kota%20Pekalongan%2C%20Jawa%20Tengah!5e0!3m2!1sid!2sid!4v1699548304813!5m2!1sid!2sid"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </div>
+    <!-- tentang -->
+    <div class="container-fluid pt-5 pb-5">
+      <div class="container">
+        <h2 class="display-3 text-center" id="tentang">Tentang</h2>
+        <p class="text-center">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, ex!
+        </p>
+        <div class="clearfix pt-5">
+          <img
+            src="https://img.freepik.com/free-vector/about-us-website-banner-concept-with-thin-line-flat-design_56103-96.jpg?size=626&ext=jpg"
+            class="col-md-6 float-md-end mb-3 crop-img"
+            width="300"
+            height="300"
+          />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+            veritatis at voluptate commodi officiis sapiente.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+            veritatis at voluptate commodi officiis sapiente.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+            veritatis at voluptate commodi officiis sapiente.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Dignissimos laboriosam excepturi exercitationem qui expedita, ex
+            temporibus natus necessitatibus accusamus voluptatibus.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- tim -->
+    <div class="container-fluid pt-5 pb-5 bg-light">
+      <div class="container text-center">
+        <h2 class="display-3" id="staff">Tim Kami</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et deleniti
+          quas at magni, iusto voluptates neque corrupti dolorum! Repellat,
+          quod.
+        </p>
+        <div class="row pt-4 gx-4 gy-4">
+          <div class="col-md-4 text-center tim">
+            <img src="assets/img/yao.png" class="rounded-circle mb-3" />
+            <h4>John Doe</h4>
+            <p>Web Designer</p>
+            <p>
+              <a href="" class="social"><i class="fab fa-twitter"></i></a>
+              <a href="" class="social"><i class="fab fa-facebook-f"></i></a>
+              <a href="" class="social"><i class="fab fa-linkedin-in"></i></a>
+            </p>
+          </div>
+          <div class="col-md-4 text-center tim">
+            <img src="assets/img/zhong xina.png" class="rounded-circle mb-3" />
+            <h4>Michael Dell</h4>
+            <p>Data Scientist</p>
+            <p>
+              <a href="" class="social"><i class="fab fa-twitter"></i></a>
+              <a href="" class="social"><i class="fab fa-facebook-f"></i></a>
+              <a href="" class="social"><i class="fab fa-linkedin-in"></i></a>
+            </p>
+          </div>
+          <div class="col-md-4 text-center tim">
+            <img src="assets/img/yao.png" class="rounded-circle mb-3" />
+            <h4>Paul</h4>
+            <p>Network Engineer</p>
+            <p>
+              <a href="" class="social"><i class="fab fa-twitter"></i></a>
+              <a href="" class="social"><i class="fab fa-facebook-f"></i></a>
+              <a href="" class="social"><i class="fab fa-linkedin-in"></i></a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Client -->
+    <div class="container-fluid client pt-5 pb-5">
+      <div class="container text-center">
+        <div class="row pt-4 gx-4 gy-4">
+          <div class="col">
+            <img
+              src="https://cdn.iconscout.com/icon/free/png-256/microsoft-28-761688.png"
+            />
+          </div>
+          <div class="col">
+            <img
+              src="https://cdn3.iconfinder.com/data/icons/glypho-social-and-other-logos/64/logo-facebook-512.png"
+            />
+          </div>
+
+          <div class="col">
+            <img
+              src="https://i.pinimg.com/originals/20/1d/17/201d17590b3a7bc8939ca37e577bbbd8.png"
+            />
+          </div>
+          <div class="col">
+            <img
+              src="https://www.ictmagazine.nl/wp-content/uploads/2020/10/ibm-720x340-1.png"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a href="https://instagram.com/maulana_afit67?igshid=NHR2aG9vZ3hpNmlm"></a>
+    <!-- footer -->
+
+    <a href="#top"><button class="top-button">On Top</button></a>
+
+    <footer class="bg-warning text-center text-lg-start">
+      <div class="container p-4">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Tentang Kami</h5>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui
+              obcaecati distinctio ab enim culpa quis dolorem facilis nobis et
+              deleniti.
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Kontak</h5>
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="!" class="text-dark">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" class="text-dark">Link 2</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Ikuti Kami</h5>
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a
+                  href="https://instagram.com/maulana_afit67?igshid=NHR2aG9vZ3hpNmlm"
+                  class="text-dark"
+                  >Instagram</a
+                >
+              </li>
+              <li>
+                <a href="#!" class="text-dark">Twitter</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2023 Hak Cipta:
+        <a class="text-dark" href="https://mdbootstrap.com/">mdbootstrap.com</a>
+      </div>
+    </footer>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
